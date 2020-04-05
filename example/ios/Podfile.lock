@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - pedometer_history (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - pedometer_history (from `.symlinks/plugins/pedometer_history/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  pedometer_history:
+    :path: ".symlinks/plugins/pedometer_history/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  pedometer_history: cf31340ee60d285b450ad8e89bf054de74957748
+
+PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+
+COCOAPODS: 1.7.5

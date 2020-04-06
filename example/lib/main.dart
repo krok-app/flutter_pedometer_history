@@ -23,7 +23,8 @@ class _MyAppState extends State<MyApp> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initStepCount() async {
-    final avail = await PedometerHistory.isAvailable();
+
+    //final avail = await PedometerHistory.isAvailable();
     final pedom = await PedometerHistory.create();
     final to = DateTime.now();
     final from = to.subtract(Duration(days: 1));

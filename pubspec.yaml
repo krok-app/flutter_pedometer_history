@@ -1,11 +1,10 @@
 name: pedometer_history
 description: A new flutter plugin project.
-version: 0.0.1
-author:
-homepage:
+version: 0.0.2
+homepage: https://github.com/prossion/flutter_pedometer_history
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.17.6 <3.0.0"
   flutter: ">=1.10.0"
 
 dependencies:

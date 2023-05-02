@@ -6,7 +6,7 @@ class PedometerHistory {
   static const MethodChannel _channel =
       const MethodChannel('pedometer_history');
 
-  int handle;
+  int? handle;
 
   PedometerHistory._(this.handle);
 

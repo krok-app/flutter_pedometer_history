@@ -43,5 +43,9 @@
 	<false/>
 	<key>NSMotionUsageDescription</key>
 	<string>We need acccess to your pedometer history.</string>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
 </dict>
 </plist>

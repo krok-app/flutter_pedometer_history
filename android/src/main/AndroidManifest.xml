@@ -1,4 +1,0 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="jp.espressso3389.pedometer_history">
-    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
-</manifest>

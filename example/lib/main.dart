@@ -13,7 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final _stepCount = ValueNotifier<int>(null);
+  final _stepCount = ValueNotifier<int>(0);
 
   @override
   void initState() {
@@ -23,7 +23,6 @@ class _MyAppState extends State<MyApp> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initStepCount() async {
-
     //final avail = await PedometerHistory.isAvailable();
     final pedom = await PedometerHistory.create();
     final to = DateTime.now();
@@ -41,9 +40,9 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: ValueListenableBuilder<int>(
-            valueListenable: _stepCount,
-            builder: (context, stepCount, child) => Text('Step count today: $stepCount')
-          ),
+              valueListenable: _stepCount,
+              builder: (context, stepCount, child) =>
+                  Text('Step count today: $stepCount')),
         ),
       ),
     );
